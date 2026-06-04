@@ -9,11 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        dark: "#1a1a1a",
+        cream: "#f5f0eb",
+        gold: "#c9a96e",
+        rose: "#d4a5a5",
+        "brand-gray": "#6b6b6b",
+      },
+      fontFamily: {
+        cormorant: ["var(--font-cormorant)", "Georgia", "serif"],
+        "dm-sans": ["var(--font-dm-sans)", "system-ui", "sans-serif"],
       },
     },
   },
   plugins: [],
 };
+
 export default config;
