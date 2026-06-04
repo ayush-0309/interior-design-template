@@ -2,6 +2,8 @@
 const nextConfig = {
   output: "export",
   trailingSlash: true,
+  basePath: "/interior-design-template",
+  assetPrefix: "/interior-design-template/",
   images: {
     unoptimized: true,
     remotePatterns: [
